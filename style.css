@@ -7,18 +7,19 @@
     url("https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg");
     background-size: 100%;
     height: 630px;
-    background-position-y: 25%;
+    background-position-y: 41%;
 
 }
 .Nav-body{
-
+ padding-top: 6vh ;
+ display: flex;
+ justify-content: space-around;
 }
 .Nav-button {
-   margin: 16vh ;
+   margin-left: 5vh ;
 }
 .Nav-Container {
     height: 42px;
-    width: 1116px;
-    margin: auto;
+    width: 1116px;   
 }
 
