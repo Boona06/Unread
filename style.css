@@ -36,12 +36,13 @@ body {
     height: 18px;
 }
 
-.Search-img {}
+.Search-img {
+   
+}
 
 .Search-text {
-    color: #ffffff;
-    opacity: 0.3;
-    padding-left: 10px;
+    border: none;
+    background-color: transparent;
 }
 
 .Nav-content {
@@ -81,6 +82,13 @@ body {
     border-radius: 50%;
     background-color: #0078f6;
     margin-left: 10px;
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0%;
+    }
 }
 
 .Nav-end {
@@ -100,8 +108,20 @@ body {
 
 }
 
-.Hero-Container img {
+.Hero-Container{
     border-radius: 30px;
+    transition:all 1s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Zuragnuud/Herocover.png);
+    border-radius: 25px;
+    width: 450px;
+    height: 450px;
+    background-size: 100%;
+}
+
+.Hero-Container:hover {
+   background-size: 120%;
 }
 
 .Hero-content {
@@ -113,7 +133,15 @@ body {
 .Hero-title {
     color: #0078f6;
     text-transform: uppercase;
-    opacity: 0.4;
+    opacity: 0.6;
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0%;
+    }
+
 }
 
 .Hero-info {
@@ -171,12 +199,14 @@ body {
     border-radius: 50%;
     margin-left: 5px;
 }
-.Main{
+
+.Main {
     background-color: black;
     height: 450px;
-    
+
 }
-.Main-section{
+
+.Main-section {
     height: 28px;
     width: 1120px;
     padding-top: 150px;
@@ -184,49 +214,70 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.Section-text{
+
+.Section-text {
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
 }
-.Circle{
+
+.Circle {
     height: 27px;
     width: 52px;
     background-color: #a29a9a;
     border-radius: 25px;
 }
-.Main-img{
+
+.Main-img {
     padding-left: 350px;
     padding-top: 34px;
+    transition: 1.3s;
 }
-.Main-article{
+.Main-img img:hover{
+  scale: 1.2;
+}
+   
+
+
+.Main-article {
     height: 1590px;
     width: 1190px;
     margin-left: 480px;
 }
-.Article-img-section{
+
+.Article-img-section {
     height: 44px;
     width: 609px;
     margin-top: 54px;
     display: flex;
     gap: 7px;
 }
-.Article-img{
 
+.Article-img-section-rightside {
+    height: 44px;
+    width: 609px;
+    margin-top: 54px;
+    display: flex;
+    gap: 7px;
+    margin-left: 500px;
 }
-.Article-img-name{
+
+.Article-img-name {
     color: black;
 }
-.Article-date{
+
+.Article-date {
     color: #888888;
     display: flex;
 }
-.Article-date-item{
+
+.Article-date-item {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.Article-dot{
+
+.Article-dot {
     border: 1px #888888 solid;
     width: 2px;
     height: 2px;
@@ -234,18 +285,40 @@ body {
     border-radius: 50%;
     margin-left: 5px;
 }
-.Article-border{
-    border:  #ffffff solid;
+
+.Article-border {
+    border: #ffffff solid;
     border-radius: 0px 25px 25px 25px;
     height: 183px;
-    width: 739px;
+    width: 729px;
     background-color: #ffffff;
     display: flex;
+    justify-content: space-between;
+
 }
-.Article-section{
+.Article-border-leftside {
+    border: #ffffff solid;
+    border-radius: 25px 0px 25px 25px;
+    height: 183px;
+    width: 729px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Article-border img {
+    width: 135px;
+    height: 135px;
+    margin-top: 19px;
+    margin-right: 65px;
+}
+
+.Article-section {
     display: flex;
 }
-.Article-border-dot{
+
+.Article-border-dot {
     width: 5px;
     height: 5px;
     border: #0078f6 1px solid;
@@ -254,20 +327,27 @@ body {
     margin-left: 25px;
     margin-top: 30px;
 }
-.Article-border-item{
+
+.Article-border-item {
     color: #0078f6;
     font-weight: bold;
     font-size: 12px;
     margin-left: 20px;
     margin-top: 27px;
 }
-.Article-title{
+
+.Article-title {
     color: #000000;
-    margin-left: 20px;
-    margin-top: 28px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
+.Article-leftside {
+    margin-left: 30px;
+}
 
-
+.Article-rightside {
+    margin-left: 480px;
+}
