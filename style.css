@@ -1,3 +1,6 @@
+* {
+    font-family: Sf Display, sans-serif;
+}
 body {
     margin: 0%;
     background-color: #FAFAFA;
@@ -211,7 +214,7 @@ body {
     padding-left: 500px;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .Section-text {
@@ -353,3 +356,165 @@ body {
     margin-left: 480px;
 }
 
+.Date {
+    margin-top: 35px;
+    margin-left: 500px;
+    display: flex;
+    align-content: center;
+}
+
+.Week {
+    color: #0078f6;
+    font-weight: bold;
+    border-bottom: #0078f6 solid 2px;
+    height: 50px;
+    width: 300px;
+}
+
+.Nextweek {
+    color: #888888;
+    width: 280px;
+    height: 50px;
+    border-bottom: #888888 solid 2px;
+    text-align: center;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(4, 265px);
+    grid-template-rows: repeat(19);
+    margin-left: 500px;
+    gap: 20;
+    margin-top: 70px;
+}
+
+.Grid1{
+grid-column: 1 / 3;
+grid-row: 1 / 5;
+transition: 1.5s;
+}
+.Grid1:hover{
+    scale: 1.04;
+}
+.Grid2{
+padding-left: 30px;
+transition: 1.5s;
+}
+.Grid2:hover{
+    scale: 1.04;
+}
+.Grid3{
+grid-column: 4 / 5;
+grid-row: 1 / 3;
+padding-left: 40px;
+transition: 1.5s;
+}
+.Grid3:hover{
+    scale: 1.04;
+}
+.Grid4{
+grid-column: 1 / 2 ;
+grid-row: 2 / 3;
+padding-top: 130px;
+transition: 1.5s;
+}
+.Grid4:hover{
+    scale: 1.04;
+}
+.Grid5{
+grid-column: 2 / 3;
+grid-row: 2 /3 ;
+padding-top: 130px;
+padding-left: 20px;
+transition: 1.5s;
+}
+.Grid5:hover{
+    scale: 1.04;
+}
+.Grid6{
+grid-column: 3 / 4;
+grid-row: 2 / 3;
+padding-left: 30px;
+padding-top: 36px;
+transition: 1.5s;
+}
+.Grid6:hover{
+    scale: 1.04;
+}
+.Grid7{
+grid-column: 4 / 5;
+grid-row: 2 /3 ;
+padding-left: 40px;
+padding-top: 36px;
+transition: 1.5s;
+}
+.Grid7:hover{
+    scale: 1.04;
+}
+.Grid8{
+grid-column: 1 /3 ;
+grid-row: 3 /4;
+padding-top: 150px;
+transition: 1.5s;
+}
+.Grid8:hover{
+    scale: 1.04;
+}
+.Grid9{
+padding-left: 30px;
+padding-top: 150px;
+transition: 1.5s;
+}
+.Grid9:hover{
+    scale: 1.04;
+}
+.Grid10{
+grid-column: 4 / 5;
+grid-row: 3 /4 ;
+padding-left: 40px;
+padding-top: 150px;
+transition: 1.5s;
+}
+.Grid10:hover{
+    scale: 1.04;
+}
+.Grid11{
+grid-column: 1 / 2;
+grid-row: 4 / 5;
+padding-top: 10px;
+transition: 1.5s;
+}
+.Grid11:hover{
+    scale: 1.04;
+}
+.Grid12{
+grid-column: 2 / 3;
+grid-row: 4 / 5;
+padding-top: 10px;
+padding-left: 20px;
+transition: 1.5s;
+}
+.Grid12:hover{
+    scale: 1.04;
+}
+.Grid13{
+grid-column: 3 / 4;
+grid-row: 4 / 5;
+padding-left: 30px;
+padding-top: -40px;
+margin-top: -80px;
+transition: 1.5s;
+}
+.Grid13:hover{
+    scale: 1.04;
+}
+.Grid14{
+grid-column: 4 / 5;
+grid-row: 4 / 5;
+padding-left: 40px;
+margin-top: -80px;
+transition: 1.5s;
+}
+.Grid14:hover{
+    scale: 1.04;
+}
