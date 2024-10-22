@@ -147,14 +147,19 @@ body {
     text-transform: uppercase;
     width: 609px;
     height: 86px;
-    font-size: 43px;
+    font-size: 37px;
     margin-top: 65px;
+    font-weight: bold;
+}
+.Hero-info a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .Hero-actor {
     height: 44px;
     width: 609px;
-    margin-top: 54px;
+    margin-top: 50px;
     display: flex;
     gap: 7px;
 }
@@ -165,6 +170,9 @@ body {
     border: 2px #a29a9a solid;
     border-radius: 50%;
     text-align: center;
+}
+.Actor-img:hover{
+    border: 2px #ffffff solid;
 }
 
 .Actor-img img {
@@ -229,12 +237,17 @@ body {
 
 .Main-img {
     padding-left: 350px;
-    padding-top: 34px;
-    transition: 1.3s;
+    padding-top: 60px;
+    overflow-x: scroll;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
 }
 
-.Main-img img:hover {
-    scale: 1.2;
+.Main-img img:hover{
+    transition: 1.3s;
+    transition: 1.50s;
 }
 
 
@@ -561,7 +574,7 @@ body {
     margin-top: 65px;
     background-image: url(Zuragnuud/Footer-border.png);
     background-repeat: no-repeat;
-    color: #FFF;
+    color: #ddd8d8;
     height: 90px;
     width: 323px;
     border-radius: 18px;
@@ -610,7 +623,8 @@ body {
     margin-left: 250px;
     font-size: 13px;
 }
-.footer-grid{
+
+.footer-grid {
     grid-column: (3);
     grid-row: (8);
 }
@@ -623,4 +637,10 @@ body {
     gap: 200px;
     padding-bottom: 170px;
     transition: 1.5s;
+}
+
+.list {
+    line-height: 35px;
+    color: #888888;
+    font-size: 12px;
 }
