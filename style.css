@@ -710,3 +710,45 @@ body {
     transition: 1s all;
     scale: 1.1;
 }
+.fa-facebook-f:hover{
+ color: #026fe4;
+ background-clip: none;
+}
+.fa-twitter:hover{
+    color: rgb(29, 161, 242);
+    background-clip: none;
+   }
+.crop-image{
+    font-size: 45px;
+    background-color: #FFF;
+    color: transparent;
+    background-clip: text;
+    background-repeat: no-repeat;
+    width: fit-content;
+    height: fit-content;
+}
+.crop-image:hover{
+    background: linear-gradient(
+        rgb(252 , 204 ,99)
+        rgb(251 , 173 ,80)
+        rgb(205 , 72 ,107)
+        rgb(76 , 104 ,215)
+    );
+    background-clip: text;
+    background-repeat: no-repeat;
+}
+.fa-instagram:hover{
+    background-clip: none;
+   }
+.fa-linkedin-square:hover{
+    color: rgb(0, 119, 181);
+    background-clip: none;
+   }
+.fa-youtube-play:hover{
+    color: red;
+    background-clip: none;
+   }
+.fa-soundcloud:hover{
+    color: #ff8800;
+    background-clip: none;
+   }
